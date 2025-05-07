@@ -38,7 +38,9 @@ speakButton.addEventListener('click', () => {
     (voice) => voice.name === selectedOption.getAttribute('data-name')
   );
     
-
+  if (selectedVoice) {
+    speakthis.voice = selectedVoice;
+  }
 
   // Change face to open mouth while speaking
   speakthis.onstart = () => {
