@@ -11,16 +11,3 @@
     "verbose": true
   }
 }
-=======
-    "devDependencies": {
-      "jest": "^29.7.0"
-    },
-    "scripts": {
-      "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
-    },
-    "type": "module",
-    "jest": {
-      "transform": {},
-      "verbose": true
-    }
-  }
